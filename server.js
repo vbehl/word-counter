@@ -4,7 +4,11 @@ var webpack = require('webpack');
 var app = express();
 
 var isDevelopment = (process.env.NODE_ENV !== 'production');
+<<<<<<< HEAD
 var static_path = path.join(__dirname, 'public');
+=======
+var static_path = path.join(process.env.PWD, 'public');
+>>>>>>> b8cebe4fc452e0b41417ed26d5bc79284fd5b8c8
 
 app.use(express.static(static_path))
   .get('/', function (req, res) {
