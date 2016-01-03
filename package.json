@@ -1,5 +1,5 @@
 {
-  "name": "calculator",
+  "name": "word-count",
   "version": "1.0.0",
   "description": "Heroku deployable boilerplate for React/Flux/Webpack apps.",
   "main": "./src/entry.js",

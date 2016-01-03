@@ -9,8 +9,8 @@ export class App extends Component {
     this.onKeyPress = this.onKeyPress.bind(this)
   }
   onKeyPress(){
-    var text = this.refs.input.getDOMNode().innerHTML,
-    words = text.split(' ').length;
+    var text = this.refs.input.getDOMNode().textContent,
+    words = text.split((/\s+/)).length;
     this.setState({words: text==[]?0:words});
   }
   componentDidMount(){
