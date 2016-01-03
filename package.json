@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "Heroku deployable boilerplate for React/Flux/Webpack apps.",
   "main": "./src/entry.js",
-  "homepage": "https://github.com/vbehl/calculator",
+  "homepage": "https://github.com/vbehl/word-count",
   "scripts": {
     "postinstall": "webpack --config ./webpack-prod.config.js --progress --colors",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vbehl/calculator.git"
+    "url": "git+https://github.com/vbehl/word-count.git"
   },
   "keywords": [
     "react",
