@@ -1,5 +1,5 @@
 import React from 'react';
-import App from './components/app';
-import '../css/app.scss';
+import { App } from './components/app.jsx';
 
-React.render(<App/>, document.body);
+
+React.render(<App />, document.body);
